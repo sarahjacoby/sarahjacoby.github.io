@@ -1,0 +1,176 @@
+/** Stately setup
+*************************************/
+@font-face {
+  font-family: 'stately-webfont';
+  src: url("../font/stately-webfont.eot");
+  src: url("../font/stately-webfont.eot?#iefix") format("embedded-opentype"), url("../font/stately-webfont.woff") format("woff"), url("../font/stately-webfont.ttf") format("truetype"), url("../font/stately-webfont.svg#testfontRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stately {
+  font: normal normal 600px/100% "stately-webfont";
+  font-size-adjust: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -ms-font-feature-settings: "liga" 1;
+  -ms-font-feature-settings: "liga", "dlig";
+  overflow: hidden;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.stately li {
+  float: left;
+  margin: -20% 0 0 -100%;
+  position: relative;
+  left: 101%;
+  width: 100%;
+  cursor: default;
+  -webkit-transition: all 1s ease-in;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/** Style customizations
+*************************************/
+.stately {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+#intrideans {
+  color: #b0b0b0;
+}
+#intrideans .ca,
+#intrideans .co,
+#intrideans .dc,
+#intrideans .fl,
+#intrideans .ks,
+#intrideans .md,
+#intrideans .mn,
+#intrideans .mi,
+#intrideans .nj,
+#intrideans .ny,
+#intrideans .oh,
+#intrideans .va,
+#intrideans .wa,
+#intrideans .wy {
+  color: #a3d07e;
+}
+
+#election {
+  color: #DCE0DC;
+}
+#election .ny{
+  color: #02520B;
+}
+#election .ca,
+#election .co,
+#election .va{
+  color: #1D8029;
+}
+#election .ga,
+#election .in,
+#election .md,
+#election .ma,
+#election .oh,
+#election .wa{
+  color: #67C271;
+}
+#election .fl,
+#election .il,
+#election .me,
+#election .mo,
+#election .nj,
+#election .nc,
+#election .pa,
+#election .sc,
+#election .tn,
+#election .vt,
+#election .wi{
+  color: #A3E3AB;
+}
+#election .al,
+#election .ak,
+#election .az,
+#election .ar{
+  color: #purple;
+}
+  
+
+#presidents {
+  color: #b0b0b0;
+}
+#presidents .va,
+#presidents .oh,
+#presidents .ma,
+#presidents .ny,
+#presidents .nc,
+#presidents .tx,
+#presidents .vt,
+#presidents .ar,
+#presidents .ca,
+#presidents .ct,
+#presidents .ga,
+#presidents .hi,
+#presidents .il,
+#presidents .ia,
+#presidents .ky,
+#presidents .mo,
+#presidents .ne,
+#presidents .nj,
+#presidents .pa,
+#presidents .sc {
+  color: #ff8b3e;
+}
+
+<style type='text/css'>
+  .wax-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .wax-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .wax-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .wax-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .wax-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .wax-legend a {
+    color: #777;
+    }
+</style>
