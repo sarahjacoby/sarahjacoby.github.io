@@ -2,9 +2,33 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	color: #1a1a1a;
 	margin: auto;
-	margin-top: 20px;
 	font-size: 13px;
 	line-height: 19px;
-	overflow-x: hidden;
 	width: 650px;
+	font-family: "helvetica neue", sans-serif;
+	font-weight: 300;
 }
+
+p {
+font-size: 17px;
+line-height: 1.3em;
+}
+
+li {
+  list-style-type: none;
+}
+ 
+ul {
+  padding:0;
+  margin:0;
+}
+ 
+.stop-location {
+  font-weight:bold;
+}
+
+body {
+font-family: "helvetica neue";
+font-weight: 300;
+}
+ 
