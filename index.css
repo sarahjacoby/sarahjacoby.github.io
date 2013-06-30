@@ -11,6 +11,11 @@ body {
 	font-weight: 300;
 }
 
+h3 {
+	font-size: 13px;
+	font-weight: 420;
+}
+
 p {
 font-size: 15px;
 line-height: 1.3em;
